@@ -13,9 +13,9 @@
 
 # terraform {
 #   backend "s3" {
-#     bucket       = "portfolio-site-terraform-state"
-#     key          = "portfolio-site/production/terraform.tfstate"
-#     region       = "ap-south-1"
+#     bucket       = "oriko-project-terraform-state"
+#     key          = "oriko-project/production/terraform.tfstate"
+#     region       = "eu-north-1"
 #     encrypt      = true
 #     use_lockfile = true
 #   }

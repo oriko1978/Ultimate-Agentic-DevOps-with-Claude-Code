@@ -1,13 +1,13 @@
 variable "region" {
   description = "AWS region for the S3 bucket and provider"
   type        = string
-  default     = "ap-south-1"
+  default     = "eu-north-1"
 }
 
 variable "project_name" {
   description = "Project name, used as a prefix for resource names and in tags"
   type        = string
-  default     = "portfolio-site"
+  default     = "oriko-project"
 }
 
 variable "environment" {
